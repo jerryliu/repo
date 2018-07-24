@@ -30,40 +30,32 @@
   ],
   "productionlines": [
     {
-      "name": "mounter",
-      "photo_path": "img/mounter.png",
-      "id": "1",
-      "charts":[
-          {
-            "min": 0,
-            "max": 1000,
-            "value":7.6,
-            "part":[
-              {"point":3,"color":"#B22222"},
-              {"point":9,"color":"#1890FF"},
-              {"point":9,"color":"#ddd"}
-            ]
-          }
-      ]
+        "name": "mounter",
+        "photo_path": "img/mounter.png",
+        "id": "DFDEB",
+        "charts":[
+            {
+                "min": 0,
+                "max": 9,
+                "value":7.6,
+                "sections":[{"point":3,"color":"#B22222"},{"point":9,"color":"#1890FF"},{"point":9,"color":"#ddd"}]
+            }
+        ]
     },
     {
-      "name": "mounter",
-      "photo_path": "img/mounter.png",
-      "id": "2",
-      "charts":[
-          {
-            "min": 1,
-            "max": 0,
-            "value":0.6,
-            "part":[
-              {"point":3,"color":"#0000FF"},
-              {"point":9,"color":"#00FF00"}
-            ]
-          }
-      ]
+        "name": "reflow",
+        "photo_path": "img/reflow.png",
+        "id": "jjqgshxj",
+        "charts":[
+            {
+                "min": 0,
+                "max": 9,
+                "value":7.6,
+                "sections":[{"point":3,"color":"#B22222"},{"point":9,"color":"#1890FF"},{"point":9,"color":"#ddd"}]
+            }
+        ]
     }
-    
-  ],
+    ],
   "profile": {
     "name": "typicode"
   }
