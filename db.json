@@ -1,5 +1,5 @@
 {
-  "posts": [
+  "projects": [
     {
       "id": 1,
       "title": "json-server",
@@ -20,12 +20,17 @@
     {
       "id": 1,
       "body": "some comment",
-      "postId": 1
+      "projectId": 1
     },
     {
       "id": 2,
       "body": "some comment 2",
-      "postId": 1
+      "projectId": 1
+    },
+    {
+      "id": 3,
+      "body": "some comment 3 for project 2",
+      "projectId": 2
     }
   ],
   "machines": [
