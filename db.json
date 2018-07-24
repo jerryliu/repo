@@ -28,33 +28,47 @@
       "postId": 1
     }
   ],
-  "productionlines": [
+  "mechines": [
     {
-        "name": "mounter",
-        "photo_path": "img/mounter.png",
-        "id": "DFDEB",
-        "charts":[
-            {
-                "min": 0,
-                "max": 9,
-                "value":7.6,
-                "sections":[{"point":3,"color":"#B22222"},{"point":9,"color":"#1890FF"},{"point":9,"color":"#ddd"}]
-            }
-        ]
+      "name": "mounter",
+      "photo_path": "img/mounter.png",
+      "id": "1",
+      "productionlineId": 1,
+      "charts":[
+          {
+              "min": 0,
+              "max": 9,
+              "value":7.6,
+              "sections":[{"point":7,"color":"#B22222"},{"point":4,"color":"#1890FF"},{"point":2,"color":"#ddd"}]
+          }
+      ]
     },
     {
         "name": "reflow",
         "photo_path": "img/reflow.png",
-        "id": "jjqgshxj",
+        "id": "2",
+        "productionlineId": 1,
         "charts":[
             {
                 "min": 0,
                 "max": 9,
                 "value":7.6,
-                "sections":[{"point":3,"color":"#B22222"},{"point":9,"color":"#1890FF"},{"point":9,"color":"#ddd"}]
+                "sections":[{"point":9,"color":"#ff0000"},{"point":6,"color":"#1890FF"},{"point":3,"color":"#000"}]
             }
         ]
     }
+  ],
+  "productionlines": [
+      {
+        "id": 1,
+        "title": "iphonex",
+        "factory": "新竹"
+      },
+      {
+        "id": 2,
+        "title": "dell screen",
+        "factory": "中山"
+      }
     ],
   "profile": {
     "name": "typicode"
